@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+@media only screen and (max-width: 1199px) {
+
+  form label
+  {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 3px; 
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+  form select 
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    height: 22px;
+    transform: translateY(-1px);
+    appearance: none;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+
+  form .date 
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    height: 22px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+  
+  form button
+  {
+    height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes labelGradient 
+  {
+    0%   {background-color: #ee7752;}
+    33%   {background-color: #e73c7e;}
+    66%  {background-color: #23a6d5;}
+    100% {background-color: #23d5ab;}
+  }
+
+  .Info
+  {
+    position: relative;
+    left: 0px;
+    top:  0px;
+    height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    border-top: 5px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #23a6d5,#23d5ab);
+    width: 170px;
+  }
+
+  #info
+  {
+    left: 10px;
+    top: 180px;
+    width: 170px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+  }
+ 
+
+}
+
+@media only screen and (max-width: 300px) {  
+
+  form label
+  {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 3px; 
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+  form select 
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    height: 22px;
+    transform: translateY(-1px);
+    appearance: none;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+
+  form .date 
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    height: 22px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+  
+  form button
+  {
+    height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes labelGradient 
+  {
+    0%   {background-color: #ee7752;}
+    33%   {background-color: #e73c7e;}
+    66%  {background-color: #23a6d5;}
+    100% {background-color: #23d5ab;}
+  }
+
+  .Info
+  {
+    position: relative;
+    left: 460px;
+    top: -37px;
+    height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    border-top: 5px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #23a6d5,#23d5ab);
+    width: 170px;
+  }
+
+  #info
+  {
+    position: absolute;
+    left: 470px;
+    top: 127px;
+    width: 170px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    z-index: 0px;
+  }
+
+  #jsonOutput
+ {
+   top: 140px;
+   left: 1em;
+   position: absolute;
+   z-index: -1;
+ }
+ 
+  
+  .split {
+    float: left;
+      height: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      padding-top: 20px;
+    }
+    
+    .left {
+      width: 30%;
+      left: 0;
+    }
+    
+    .right {
+      width: 70%;
+      height: 200%;
+      right: 0;
+      transform: translate(80px, -550px);
+    }
+  
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .down {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 200px);
+      text-align: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+ 
+  form label
+  {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 3px; 
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+  form select 
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    height: 22px;
+    transform: translateY(-1px);
+    appearance: none;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+
+  form .date 
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    height: 22px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+  
+  form button
+  {
+    height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    animation: labelGradient 20s ease infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes labelGradient 
+  {
+    0%   {background-color: #ee7752;}
+    33%   {background-color: #e73c7e;}
+    66%  {background-color: #23a6d5;}
+    100% {background-color: #23d5ab;}
+  }
+
+  .Info
+  {
+    position: relative;
+    left: 460px;
+    top: -37px;
+    height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    border-top: 5px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #23a6d5,#23d5ab);
+    width: 170px;
+  }
+
+  #info
+  {
+    position: absolute;
+    left: 470px;
+    top: 127px;
+    width: 170px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    z-index: 0px;
+  }
+
+  #jsonOutput
+ {
+   top: 140px;
+   left: 1em;
+   position: absolute;
+   z-index: -1;
+ }
+ 
+  
+  .split 
+  {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+  }
+    
+  .left 
+  {
+    width: 30%;
+    left: 0;
+  }
+    
+  .right 
+  {
+    width: 60%;
+    height: 200%;
+    right: 0;
+    transform: translate(80px, -550px);
+  }
+  
+  .centered 
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .down {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200px);
+    text-align: center;
+  }
+ 
+ }
+ /* According to Mobile Orientation */
+ @media only screen and (orientation: landscape) {   
+ 
+    /* Your CSS Code for this device orientation */    
+ 
+ }
